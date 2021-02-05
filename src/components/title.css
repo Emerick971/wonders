@@ -1,0 +1,18 @@
+h1{
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin: 2em 1.5em 1.5em 2em;
+    width: 40%;
+    border-radius: 5px;
+    border: solid 3px pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkmagenta;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}

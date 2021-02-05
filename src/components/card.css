@@ -1,0 +1,63 @@
+/*Définitions des Card*/
+
+.Card{
+    background-color: plum;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 20px 80px 80px;
+    border: solid 3px pink;
+}
+
+.divFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*Fin définition des Card*/
+
+/*Ajustement des images*/
+.Image{
+    display: flex;
+    width: 300px;
+    margin-bottom: 5px;
+    margin-left: -8px;
+    border-radius: 5px;
+    border: solid 2px lightblue
+}
+/*Fin ajustement des images*/
+
+/*Définition du bouton*/
+.BtnCard{
+    background-color: lightcoral;
+    cursor: pointer;
+    opacity: 60%;
+    text-align: center;
+}
+
+.BtnCard :hover{
+background-color: red;
+color: white;
+}
+
+/*Fin  définition du bouton*/
+
+.Title{
+    color: darkmagenta;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Text{
+    font-family: fantasy;
+    
+}
+
+/*Définition de l'étoile favoris*/
+
+span{
+    color: #eee;
+}
+
+span.is-favorite{
+    color: #ecc94b;
+}
